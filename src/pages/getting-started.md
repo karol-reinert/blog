@@ -9,6 +9,7 @@ meta:
     content: blog, template, getting started, guide
   - name: author
     content: FallDownTheSystem
+status: hidden
 ---
 
 <Title :title="frontmatter.name ?? frontmatter.title" :description="frontmatter.description" :published="frontmatter.date" />

@@ -86,10 +86,16 @@ const config = {
 	tags: false
 };
 
+
+
 const router = useRouter();
 const routes = router.getRoutes();
 const articles = sortBy(
-	routes.filter(x => x.name && x.meta && x.path !== '/' && x.name !== 'all'),
-	'meta.date'
+    routes.filter(x => x.name && x.meta && x.path !== '/' && x.name !== 'all' && x.meta.status !== 'hidden'),
+    'meta.date'
 ).reverse();
+
+console.log(routes.map(route => ({ name: route.name, meta: route.meta })));
+
+
 </script>
