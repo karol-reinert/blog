@@ -94,7 +94,7 @@
 		<div class="bg-gray-400 w-full h-[1px] mr-6"></div>
 		<a
 			aria-label="View source"
-			href="https://github.com/FallDownTheSystem/blog"
+			href="https://github.com/charles-reinert"
 			target="_blank"
 			rel="noopener noreferrer"
 			class="
