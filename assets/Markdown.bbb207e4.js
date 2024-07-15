@@ -1,0 +1,1 @@
+import{s as t}from"./app.aa13cb38.js";import{j as o,L as s}from"./vendor.cd9f2ff7.js";const f={props:{frontmatter:Object},setup(e){return o(()=>{t.mounted++}),(r,a)=>s(r.$slots,"default")}};export{f as _};
